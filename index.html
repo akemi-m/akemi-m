@@ -15,26 +15,28 @@
 <body>
 <div class="tela-maxima">
 
-    <div id="container3D">
-        <div id="overlay">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-sm-4 offset-1 pt-3">
-                        <h1>
-                            Akemi Mullis
-                        </h1>
-                        <hr/>
+    <div id="home">
+        <div id="container3D">
+            <div id="overlay">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-4 offset-1 pt-3">
+                            <h1>
+                                Julia Akemi Mullis
+                            </h1>
+                            <hr/>
+                        </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-4 offset-7 pt-3">
-                        <p class="p-hiragana">
-                            あけみ
-                        </p>
-                        <hr/>
-                        <p class="alinhamento-texto-direita">
-                            Estudante de Sistemas de Informação (ESPM)
-                        </p>
+                    <div class="row">
+                        <div class="col-sm-4 offset-7 pt-3">
+                            <p class="p-hiragana">
+                                あけみ
+                            </p>
+                            <hr/>
+                            <p class="alinhamento-texto-direita">
+                                Estudante de Sistemas de Informação (ESPM)
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -42,60 +44,86 @@
     </div>
 
     <header class="primary-header flex">
-        <div>
-            <img src="/public/img/happy-emoticon.png" alt="Perfil teste" width="109px">
-        </div>
         <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
             <span class="sr-only">Menu</span>
         </button>
-        <nav class="pt-3 pb-3">
+        <nav class="pt-5 pb-5">
             <ul id="primary-navigation" data-visible="false" class="primary-navigation flex">
                 <li class="active">
-                    <a href="index.html" class="navbar-cor-fonte">
+                    <a href="#home" class="navbar-cor-fonte">
                         <span aria-hidden="true">00</span>Home
                     </a>
                 </li>
                 <li class="active">
-                    <a href="index.html" class="navbar-cor-fonte">
+                    <a href="#sobre-mim" class="navbar-cor-fonte">
                         <span aria-hidden="true">01</span>Sobre mim
                     </a>
                 </li>
                 <li class="active">
-                    <a href="index.html" class="navbar-cor-fonte">
-                        <span aria-hidden="true">02</span>Projetos
+                    <a href="#habilidades" class="navbar-cor-fonte">
+                        <span aria-hidden="true">02</span>Habilidades
                     </a>
                 </li>
                 <li class="active">
-                    <a href="index.html" class="navbar-cor-fonte">
-                        <span aria-hidden="true">03</span>Trajetória
+                    <a href="#projetos" class="navbar-cor-fonte">
+                        <span aria-hidden="true">03</span>Projetos
                     </a>
                 </li>
                 <li class="active">
-                    <a href="index.html" class="navbar-cor-fonte">
-                        <span aria-hidden="true">04</span>Contato
+                    <a href="#trajetoria" class="navbar-cor-fonte">
+                        <span aria-hidden="true">04</span>Trajetória
+                    </a>
+                </li>
+                <li class="active">
+                    <a href="#contato" class="navbar-cor-fonte">
+                        <span aria-hidden="true">05</span>Contato
+                    </a>
+                </li>
+                <li class="active">
+                    <a href="/public/pdf/CV - Julia Akemi Mullis.pdf - Julia Akemi Mullis.pdf" class="navbar-cor-fonte cor-fonte-vermelha" download>
+                        Currículo
                     </a>
                 </li>
             </ul>
         </nav>
     </header>
 
-    <div class="fundo-padrao-teste">
+    <div class="fundo-padrao-teste" id="sobre-mim">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-sm-4 offset-4 centralizar-texto">
+                <div class="col-sm-4 offset-1 pt-5 pb-5">
                     <h2>
                         Sobre mim
                     </h2>
                     <hr/>
                 </div>
+                <div class="col-4 offset-2 pt-5 pb-5 foto-sobre-mim-flex">
+                    <img src="/public/img/foto_akemi_sobre_mim.png" alt="Foto Akemi Mullis" width="300px">
+                </div>
             </div>
         </div>
     </div>
 
-    <div class="fundo-padrao-teste">
+    <div class="fundo-padrao-teste" id="habilidades">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-sm-4 offset-4 centralizar-texto">
+                <div class="col-sm-4 offset-7 alinhamento-texto-direita pt-5 pb-5">
+                    <h2>
+                        Habilidades
+                    </h2>
+                    <hr/>
+                </div>
+                <div class="col-sm-4 offset-1">
+                    <img src="/public/svg/python.svg" alt="" width="70px">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fundo-padrao-teste" id="projetos">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-4 offset-1 pt-5 pb-5">
                     <h2>
                         Projetos
                     </h2>
@@ -105,19 +133,18 @@
         </div>
     </div>
 
-    <div class="fundo-minha-trajetoria">
+    <div class="fundo-minha-trajetoria" id="trajetoria">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-sm-4 offset-1 pt-3">
+                <div class="col-sm-4 offset-1 pt-5 pb-5">
                     <h2>
-                        Minha trajetória
+                        Trajetória
                     </h2>
                     <hr/>
                 </div>
                 <div class="col-10 offset-1">
                     <div class="wrapper">
                         <div class="center-line">
-                            <a href="#" class="scroll-icon"><i class="fas fa-caret-up"></i></a>
                         </div>
                         <div class="row row-1">
                             <section>
@@ -239,11 +266,11 @@
             </div>
         </div>
 
-        <div class="fundo-padrao-teste">
+        <div class="fundo-padrao-teste" id="contato">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-sm-4 offset-4 centralizar-texto">
-                        <h2 class="pt-5">
+                    <div class="col-sm-4 offset-7 alinhamento-texto-direita pt-5 pb-5">
+                        <h2>
                             Contato
                         </h2>
                         <hr/>
