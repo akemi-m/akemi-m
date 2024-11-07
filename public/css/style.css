@@ -287,7 +287,7 @@
     .primary-navigation {
         --gap: clamp(1.5rem, 5vw, 2rem);
         padding-block: 0.8rem;
-        padding-inline: clamp(1rem, 10vw, 5.1rem); /*1 é a largura - 8(1rem, 10vw, 6.2rem)*/
+        padding-inline: clamp(1rem, 10vw, 6.6rem); /*1 é a largura - 8(1rem, 10vw, 6.2rem)*/
     }
 }
 
@@ -381,7 +381,7 @@ p {
     font-weight: bold;
 }
 
-.arredondar-borda-img {
+.arredondar-borda-svg {
     border-radius: 15px;
 }
 
