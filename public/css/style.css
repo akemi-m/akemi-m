@@ -385,4 +385,26 @@ p {
     border-radius: 15px;
 }
 
+.alinhar-texto-centro {
+    text-align: center;
+}
+
+.margin-top-bottom-work-exp {
+    margin-top: 120px;
+    margin-bottom: 30px;
+}
+
+.margin-top-bottom-acad-exp {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.align-items-teste {
+    align-items: end;
+}
+
+.padding-top-tempo {
+    padding-top: 4px;
+}
+
 /* específico /*/
