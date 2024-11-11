@@ -261,7 +261,7 @@
         display: block;
         position: fixed;
         z-index: 9999;
-        background: url(/public/img/menu.png);
+        background: url(public/img/menu.png);
         background-size: contain;
         background-repeat: no-repeat;
         border: 0;
@@ -272,7 +272,7 @@
     }
 
     .mobile-nav-toggle[aria-expanded='true'] {
-        background-image: url(/public/img/x.png);
+        background-image: url(public/img/x.png);
     }
     
 }
