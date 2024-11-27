@@ -423,6 +423,10 @@ p {
     padding-top: 85px;
 }
 
+.padding-top-about-me-origami {
+    padding-top: 95px;
+}
+
 .fundo-skills {
     min-height: 572px;
     background-image: url(/public/svg/triangulo_esquerda_azul.svg);
@@ -442,6 +446,14 @@ p {
     background-image: url(/public/svg/triangulo_esquerda_azul.svg);
     background-repeat: no-repeat;
     background-size: auto;
+}
+
+.pequeno-padding-left {
+    padding-left: 3px;
+}
+
+.padding-top-hard-skills {
+    padding-top: 50px;
 }
 
 /* específico /*/
