@@ -392,13 +392,6 @@ p {
     min-height: 668px;
 }
 
-.fundo-about-me {
-    min-height: 572px;
-    background-image: url(/public/svg/triangulo_direita_verde.svg);
-    background-repeat: no-repeat;
-    background-size: auto;
-}
-
 .fonte-creme {
     color: #F7E1B0;
 }
@@ -427,21 +420,14 @@ p {
     padding-top: 95px;
 }
 
-.fundo-skills {
-    min-height: 572px;
-    background-image: url(/public/svg/triangulo_esquerda_azul.svg);
-    background-repeat: no-repeat;
-    background-size: auto;
-}
-
-.fundo-projects {
+.fundo-triangulo-verde {
     min-height: 572px;
     background-image: url(/public/svg/triangulo_direita_verde.svg);
     background-repeat: no-repeat;
     background-size: auto;
 }
 
-.fundo-career-path {
+.fundo-triangulo-azul {
     min-height: 572px;
     background-image: url(/public/svg/triangulo_esquerda_azul.svg);
     background-repeat: no-repeat;
@@ -456,12 +442,40 @@ p {
     padding-top: 50px;
 }
 
-.medio-padding-left {
-    padding-left: 35px;
-}
-
 .aumentar-fonte {
     font-size: 20px;
+}
+
+.small-font-size {
+    font-size: 16px;
+    font-weight: thin;
+}
+
+.small-and-italic-font-size {
+    font-size: 16px;
+    font-weight: thin;
+    font-style: italic;
+}
+
+.padding-left-paragrafo {
+    padding-left: 10px;
+}
+
+.sakura-flower-career-path {
+    display: flex;
+    align-items: flex-start;
+}
+
+.espacamento-sakura-flower-career-path {
+    margin-right: 15px;
+}
+
+.link-creme {
+    color: #F7E1B0;
+}
+
+.thin-font {
+    font-weight: thin;
 }
 
 /* específico /*/
