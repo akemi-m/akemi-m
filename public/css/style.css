@@ -154,6 +154,12 @@ p {
     font-size: 18px;
     font-weight: lighter;
 }
+
+::selection {
+    color: white;
+    background: #7B3026;
+}
+
 /* geral /*/
 
 /* específico */
@@ -321,5 +327,6 @@ p {
 .justificar-texto {
     text-align: justify;
 }
+
 
 /* específico /*/
