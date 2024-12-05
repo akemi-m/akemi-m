@@ -78,7 +78,7 @@
         display: block;
         position: fixed;
         z-index: 9999;
-        background: url(/public/img/menu.png);
+        background: url(public/img/menu.png);
         background-size: contain;
         background-repeat: no-repeat;
         border: 0;
@@ -89,7 +89,7 @@
     }
 
     .mobile-nav-toggle[aria-expanded='true'] {
-        background-image: url(/public/img/x.png);
+        background-image: url(public/img/x.png);
     }
     
 }
@@ -186,7 +186,7 @@ p {
 }
 
 .fundo-minha-trajetoria {
-    min-height: 1800px;
+    min-height: 500px;
 }
 
 .navbar-cor-fonte {
@@ -236,6 +236,7 @@ p {
 
 .fonte-creme {
     color: #F7E1B0;
+    text-decoration: none;
 }
 
 .fonte-vermelha {
@@ -262,16 +263,24 @@ p {
     padding-top: 95px;
 }
 
+.padding-top-contato {
+    padding-top: 90px;
+}
+
+.padding-top-contato-sakura {
+    padding-top: 100px;
+}
+
 .fundo-triangulo-verde {
     min-height: 572px;
-    background-image: url(/public/svg/triangulo_direita_verde.svg);
+    background-image: url(public/svg/triangulo_direita_verde.svg);
     background-repeat: no-repeat;
     background-size: auto;
 }
 
 .fundo-triangulo-azul {
     min-height: 572px;
-    background-image: url(/public/svg/triangulo_esquerda_azul.svg);
+    background-image: url(public/svg/triangulo_esquerda_azul.svg);
     background-repeat: no-repeat;
     background-size: auto;
 }
@@ -321,12 +330,90 @@ p {
 }
 
 .tamanho-fonte-soft-skills {
-    font-size: 15px;
+    font-size: 17px;
 }
 
 .justificar-texto {
     text-align: justify;
 }
 
+.buttonzinho {
+    background-color: #7B3026;
+    color: white;
+    border: none;
+}
+  
+.buttonzinho:hover {
+    background-color: #692920;
+}
+
+.buttonzinho:active {
+    background-color: #692920;
+}
+
+.h4-projetos {
+    font-size: 30px;
+    color: white;
+    font-weight: lighter;
+}
+
+.p-projetos {
+    font-size: 15px;
+}
+
+.techstack-lista {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    font-weight: 100;
+    font-size: 14px;
+    justify-content: space-between
+}
+
+.link-farmerlink {
+    color: #568C03;
+    font-size: 17px;
+    font-weight: normal;
+}
+
+.cor-farmerlink {
+    color: #568C03;
+    font-weight: normal;
+}
+
+.fonte-cor-branca {
+    color: white;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #444;
+}
+
+.footer-nav {
+    margin-bottom: 10px;
+}
+
+.footer-link {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.footer-link:hover {
+    color: #aaaaaa;
+}
+
+.footer-divider {
+    margin: 15px 0;
+}
+
+.footer-copy {
+    font-size: 12px;
+    color: #aaaaaa;
+}
 
 /* específico /*/
