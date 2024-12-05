@@ -78,7 +78,7 @@
         display: block;
         position: fixed;
         z-index: 9999;
-        background: url(public/img/menu.png);
+        background: url(../img/menu.png);
         background-size: contain;
         background-repeat: no-repeat;
         border: 0;
@@ -89,7 +89,7 @@
     }
 
     .mobile-nav-toggle[aria-expanded='true'] {
-        background-image: url(public/img/x.png);
+        background-image: url(../img/x.png);
     }
     
 }
@@ -273,14 +273,14 @@ p {
 
 .fundo-triangulo-verde {
     min-height: 572px;
-    background-image: url(public/svg/triangulo_direita_verde.svg);
+    background-image: url(../svg/triangulo_direita_verde.svg);
     background-repeat: no-repeat;
     background-size: auto;
 }
 
 .fundo-triangulo-azul {
     min-height: 572px;
-    background-image: url(public/svg/triangulo_esquerda_azul.svg);
+    background-image: url(../svg/triangulo_esquerda_azul.svg);
     background-repeat: no-repeat;
     background-size: auto;
 }
