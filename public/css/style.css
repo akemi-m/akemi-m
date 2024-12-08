@@ -128,7 +128,7 @@ img {
 }
 
 h1 {
-    font-size: 61px;
+    font-size: 60px;
     color: white;
     font-weight: lighter;
 }
@@ -176,13 +176,12 @@ p {
     padding-top: 350px;
 }
 
-.p-hiragana {
-    font-size: 48px;
+.alinhamento-texto-direita {
     text-align: end;
 }
 
-.alinhamento-texto-direita {
-    text-align: end;
+.p-estudante {
+    font-size: 20px;
 }
 
 .fundo-minha-trajetoria {
@@ -231,7 +230,7 @@ p {
 }
 
 .fundo-landing-page {
-    min-height: 668px;
+    min-height: 500px;
 }
 
 .fonte-creme {
