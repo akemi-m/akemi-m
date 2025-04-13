@@ -380,6 +380,13 @@ p {
 	text-decoration: none;
 }
 
+.link-expressline {
+	color: #9506b5;
+	font-size: 17px;
+	font-weight: normal;
+	text-decoration: none;
+}
+
 .link-hotel-pet {
 	color: #c75412;
 	font-size: 17px;
@@ -393,6 +400,11 @@ p {
 
 .cor-farmerlink {
 	color: #568C03;
+	font-weight: normal;
+}
+
+.cor-expressline {
+	color: #9506b5;
 	font-weight: normal;
 }
 
