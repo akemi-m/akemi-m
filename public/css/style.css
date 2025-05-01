@@ -208,6 +208,10 @@ p {
 	text-align: center;
 }
 
+.alinhar-texto-direita {
+	text-align: right;
+}
+
 .margin-top-bottom-work-exp {
 	margin-top: 120px;
 	margin-bottom: 30px;
@@ -381,7 +385,7 @@ p {
 }
 
 .link-expressline {
-	color: #9506b5;
+	color: #9e2fb7;
 	font-size: 17px;
 	font-weight: normal;
 	text-decoration: none;
@@ -404,7 +408,7 @@ p {
 }
 
 .cor-expressline {
-	color: #9506b5;
+	color: #9e2fb7;
 	font-weight: normal;
 }
 
