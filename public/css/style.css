@@ -385,7 +385,14 @@ p {
 }
 
 .link-expressline {
-	color: #9e2fb7;
+	color: #2f95b7;
+	font-size: 17px;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.link-mercadinho {
+	color: #a59abd;
 	font-size: 17px;
 	font-weight: normal;
 	text-decoration: none;
@@ -408,7 +415,12 @@ p {
 }
 
 .cor-expressline {
-	color: #9e2fb7;
+	color: #2f95b7;
+	font-weight: normal;
+}
+
+.cor-mercadinho {
+	color: #a59abd;
 	font-weight: normal;
 }
 
