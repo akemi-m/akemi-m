@@ -1,3 +1,3 @@
-## Olá, sou a Akemi! 🌸
+## Olá, sou a Akemi! 🧡
 
 Conheça minha história pelo meu [Portfólio](https://akemi-m.github.io/akemi-m/)!
