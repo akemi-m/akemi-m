@@ -344,6 +344,26 @@ p {
 	text-align: justify;
 }
 
+.container {
+	width: 100%;
+	max-width: 1920px;
+	aspect-ratio: 16 / 9;
+	overflow: hidden;
+}
+
+.container img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	/* mantém proporção sem distorcer */
+	object-position: left center;
+	/* mantém foco na esquerda */
+}
+
+.ajustar-fonte {
+	font-size: 17px;
+}
+
 .buttonzinho {
 	background-color: #7B3026;
 	color: white;
